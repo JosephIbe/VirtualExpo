@@ -1,0 +1,13 @@
+*{
+    /*padding: 0 !important;*/
+    /*margin: 0 !important;*/
+}
+
+h1 {
+    top: 1rem;
+    left: 1rem;
+    padding: 5px;
+    z-index: 1000;
+    position: absolute;
+    color: coral;
+}

@@ -1,0 +1,74 @@
+.events-holder{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.programs-item {
+    height: 285px;
+    width: 30vw;
+    overflow-y: hidden;
+    background-color: darkorange;
+    border-radius: 20px;
+    border: 2px dashed aqua;
+    margin: 30px;
+    text-align: center;
+}
+
+.programs-item:hover {
+    cursor: pointer;
+}
+
+.program-title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #050606;
+}
+
+.book-btn {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.stall-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.stall {
+    /*height: 100px;*/
+    width: 30vw;
+    overflow-y: hidden;
+    background-color: darkorange;
+    border-radius: 10px;
+    border: 2px solid brown;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.reserved {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #050606;
+    justify-content: space-between;
+}
+
+button {
+    overflow: hidden;
+    padding-bottom: -10px;
+}

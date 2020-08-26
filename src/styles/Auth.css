@@ -1,0 +1,54 @@
+.form-split {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-content {
+    height: 100vh;
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
+
+.form-input {
+    outline: 1px solid aqua;
+    border: none;
+    background-color: darkorange;
+    height: 35px;
+    width: 360px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 35px;
+    padding: 16px;
+    margin-right: 2rem;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: darkorange;
+}
